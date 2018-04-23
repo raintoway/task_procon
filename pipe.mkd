@@ -1,0 +1,16 @@
+<meta http-equiv="Content-Type" content="pipe/html; charset=utf-8">
+# 命名管道实现进程间通信  
+1. 创建pipe_fd （/tmp/transform）
+2. 打开pipe
+3. 可以通过缓存区将文档内的数据进行传输
+2. 写入“1”进pipe管道
+3. 从pipe中读取“1”
+
+具体流程图片
+  
+  
+![writer](./writetopipe.jpg)
+
+   
+
+![reader](./readfrompipe.jpg)
